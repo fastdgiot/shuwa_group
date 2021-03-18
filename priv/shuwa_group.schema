@@ -1,0 +1,46 @@
+{mapping, "group.product.key", "shuwa_group.key", [
+     {datatype, string}
+]}.
+
+
+{mapping, "group.page_index", "shuwa_group.page_index", [
+     {default, 1},
+     {datatype, integer}
+]}.
+
+{mapping, "group.vcon_total", "shuwa_group.vcon_total", [
+     {default, 5000},
+     {datatype, integer}
+]}.
+
+{mapping, "group.page_size", "shuwa_group.page_size", [
+     {default, 5000},
+     {datatype, integer}
+]}.
+
+{mapping, "group.timezone", "shuwa_group.timezone", [
+     {default, +8},
+     {datatype, integer}
+]}.
+
+{mapping, "group.msg.timeack", "shuwa_group.msg_timeack", [
+     {default, 10},
+     {datatype, integer}
+]}.
+
+{mapping, "group.msg.timeout", "shuwa_group.msg_timeout", [
+     {default, 15},
+     {datatype, integer}
+]}.
+
+{mapping, "group.task.name", "shuwa_group.task", [
+     {default, ""},
+     {datatype, string}
+]}.
+
+%% @doc Global GC Interval
+%% {@configurable}
+{mapping, "group.gc_interval", "shuwa_group.gc_interval", [
+  {default, "5m"},
+  {datatype, {duration, ms}}
+]}.

@@ -1,0 +1,115 @@
+{
+  "name": "数蛙虚拟组",
+  "layer": {
+    "width": 1024,
+    "height": 768,
+    "backColor": "#ccccccff",
+    "backgroundImage": "",
+    "widthHeightRatio": ""
+  },
+  "deviceid": "",
+  "components": [
+    {
+      "name": "text1",
+      "type": "text",
+      "style": {
+        "temp": {
+          "position": {
+            "x": 138,
+            "y": 85
+          }
+        },
+        "text": "请定制组态",
+        "zIndex": 1,
+        "visible": true,
+        "fontSize": 14,
+        "position": {
+          "h": 30,
+          "w": 100,
+          "x": 138,
+          "y": 85
+        },
+        "backColor": "rgba(46,176,80,1)",
+        "foreColor": "#000000",
+        "textAlign": "center",
+        "transform": 0,
+        "fontFamily": "Arial",
+        "borderColor": "#ccccccff",
+        "borderStyle": "solid",
+        "borderWidth": 0
+      },
+      "action": [],
+      "handle": "",
+      "dataBind": {
+        "sn": "",
+        "biz": "",
+        "title": "",
+        "queryParam": {}
+      },
+      "iconName": "text_fields",
+      "wumoxing": {
+        "max": "",
+        "min": "",
+        "name": "",
+        "unit": "",
+        "value": [],
+        "subdevid": "5b1bc4cf52",
+        "subprodid": "9c5930e565",
+        "identifier": "pressure_in"
+      },
+      "productId": "ipjnGiLSt7",
+      "identifier": "fbf26d0f-66d6-4340-92fb-fc697626483c"
+    },
+    {
+      "name": "text1",
+      "type": "text",
+      "style": {
+        "temp": {
+          "position": {
+            "x": 296,
+            "y": 79
+          }
+        },
+        "text": "可以关联子设备",
+        "zIndex": 1,
+        "visible": true,
+        "fontSize": 14,
+        "position": {
+          "h": 30,
+          "w": 100,
+          "x": 296,
+          "y": 87
+        },
+        "backColor": "rgba(46,176,80,1)",
+        "foreColor": "#000000",
+        "textAlign": "center",
+        "transform": 0,
+        "fontFamily": "Arial",
+        "borderColor": "#ccccccff",
+        "borderStyle": "solid",
+        "borderWidth": 0
+      },
+      "action": [],
+      "handle": "",
+      "dataBind": {
+        "sn": "",
+        "biz": "",
+        "title": "",
+        "queryParam": {}
+      },
+      "iconName": "text_fields",
+      "wumoxing": {
+        "max": "",
+        "min": "",
+        "name": "",
+        "unit": "",
+        "value": [],
+        "subdevid": "5b1bc4cf52",
+        "subprodid": "9c5930e565",
+        "identifier": "temperature"
+      },
+      "productId": "ipjnGiLSt7",
+      "identifier": "53932707-d596-4d5e-a03d-514d95bbcca7"
+    }
+  ]
+}

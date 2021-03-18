@@ -1,0 +1,13 @@
+{application,shuwa_group,
+             [{description,[25968,34521,39640,24182,21457,20219,21153,31649,
+                            29702]},
+              {vsn,"4.0.0"},
+              {applications,[kernel,stdlib,shuwa_statsd]},
+              {modules,[group_gc,group_loader,group_schedule_sup,
+                        group_schedule_worker,group_task_sup,
+                        group_task_worker,shuwa_group,shuwa_group_app,
+                        shuwa_group_handler,shuwa_group_sup,
+                        shuwa_group_utils]},
+              {env,[]},
+              {mod,{shuwa_group_app,[]}},
+              {registered,[]}]}.
